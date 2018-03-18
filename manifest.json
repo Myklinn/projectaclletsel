@@ -1,0 +1,25 @@
+{
+  "theme_color": "#81d4fa",
+  "orientation": "portrait",
+  "display": "standalone",
+  "short_name": "Skiën",
+  "name": "Before you ski",
+  "icons": [
+    {
+      "src": "android48.jpg",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "android-chrome-96x96",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "android192",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "index.html?launcher=true"
+}
