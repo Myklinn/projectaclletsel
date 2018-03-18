@@ -1,0 +1,14 @@
+{
+    "name": "Ski\u00ebn: check en go",
+    "short_name": "Ski\u00ebn: check en go",
+    "icons": [
+        {
+            "src": "/android-chrome-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#81d4fa",
+    "background_color": "#81d4fa",
+    "display": "standalone"
+}

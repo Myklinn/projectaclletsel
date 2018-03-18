@@ -1,0 +1,108 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  	<!--Import Google Icon Font-->
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	<!--Import Google Fonts -->
+  	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  	<!--Import materialize.css-->
+  	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  	<!-- Custom stylesheet -->
+  	<link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+  	<!--Pagina transitie-->
+  	<script type="text/javascript">
+  		$(document).ready(function() {
+  			$("body").css("display", "none");
+  			$("body").fadeIn(1000);
+  		});
+  	</script>  	
+  	<!--Add to homescreen-->
+  	<link rel="stylesheet" type="text/css" href="css/addtohomescreen.css">
+  	<script src="js/addtohomescreen.js"></script>
+  	<script>
+  		addToHomescreen();
+  	</script>  	
+  	<title>Skiën: check en go</title>
+  	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
+  	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  	<link rel="manifest" href="/site.webmanifest">
+  	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#81d4fa">
+  	<meta name="msapplication-TileColor" content="#81d4fa">
+  	<meta name="theme-color" content="#81d4fa">  	
+
+  	<!--Let browser know website is optimized for mobile-->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+  	<div id="snowflakeContainer">
+  		<p class="snowflake">*</p>  
+  	</div>	
+  	<div class="background">
+  		<div class="container">
+  			<!-- Menu -->
+  			<nav class="z-depth-0">
+  				<div class="nav-wrapper">
+  					<a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+  					<ul class="right hide-on-med-and-down">
+  						<li><a href="#">Link 1</a></li>
+  						<li><a href="#">Link 2</a></li>
+  						<li><a href="#">Link 3</a></li>
+  					</ul>
+  					<ul class="side-nav" id="mobile-menu">
+  						<li><a href="#">Link 1</a></li>
+  						<li><a href="#">Link 2</a></li>
+  						<li><a href="#">Link 3</a></li>  
+  					</ul>
+  				</div>
+  			</nav>  
+  			<!-- Einde menu -->
+  			<!-- Grote titel -->
+  			<div class="transparent">
+  				<h1 class=center-align id="titel">Ga je op wintersport? Zorg dat je goed voorbereid op pad gaat!</h1> <br>
+  				<div class="center-align"><a href="aan-de-slag" class="waves-effect waves-white btn-flat transition" id="knop">Aan de slag</a></div>	
+  			</div>		
+  			<!-- Einde grote titel -->	
+  			<!-- Feiten -->	
+  			<div class="myFeiten" id="carousel">
+  				<h1>Wist je dat?</h1>
+  				<h2>Feit 1</h2>
+  			</div>
+  			<div class="myFeiten">
+  				<h1>Wist je dat?</h1>
+  				<h2>Feit 2</h2>
+  			</div>  
+  			<div class="myFeiten">
+  				<h1>Wist je dat?</h1>
+  				<h2>Feit 3</h2>
+  			</div>  
+  		</div>  								
+  		<!-- Einde Feiten -->		
+  		<!--Import jQuery before materialize.js-->
+  		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script type="text/javascript" src="js/materialize.min.js"></script>
+  		<!-- Custom functions -->
+  		<script type="text/javascript" src="js/functions.js"></script>
+  		<script src="js/fallingsnow_v6.js"></script>
+  		<script type="text/javascript">
+  			$(document).ready(function() {
+  				$("body").css("display", "none");
+
+  				$("body").fadeIn(1000);
+
+  				$("a.transition").click(function(event){
+  					event.preventDefault();
+  					linkLocation = this.href;
+  					$("body").fadeOut(800, redirectPage);      
+  				});
+
+  				function redirectPage() {
+  					window.location = linkLocation;
+  				}
+  			});
+  		</script>				
+  	</div>
+  </body>
+  </html>

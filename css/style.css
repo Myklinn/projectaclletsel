@@ -1,0 +1,101 @@
+/* Achtergrond kleur */
+html, body {
+	background-color: #81d4fa;
+	height:100%;
+	margin: 0;
+}
+/* Sneeuw */
+#snowflakeContainer {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.snowflake {
+	padding-left: 15px;
+	font-family: Cambria, Georgia, serif;
+	font-size: 14px;
+	line-height: 24px;
+	position: fixed;
+	color: #FFFFFF;
+	user-select: none;
+	z-index: 1000;
+}
+.snowflake:hover {
+	cursor: default;
+}
+/* Achtergrond plaatje */
+.background {
+	background-image: url("../images/background.jpg");
+	height:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* Transparent achtergrond */
+.transparent {
+	background-color: rgba(255,255,255,0.5) !important;
+	padding-bottom: 15px;
+	padding-top: 0.05%;
+}
+/* Menu open */
+.side-nav {
+	width:50%;
+}
+/* Menu achtergrond kleur */
+nav {
+	background-color: unset !important;
+}
+/* Menu knop kleur */
+i {
+	color: black !important;
+}
+/* Grote titel style */
+#titel {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 2.9em;
+	font-weight: bold;
+	margin-top: 2%;
+}
+/* Aan de slag knop */
+#knop {
+	background-color: #fff;
+	font-size:1.4em;
+}
+/* Feiten */
+.myFeiten {
+	display: none;
+	text-align: center;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+/* Titel van feiten */
+h1 {
+	font-size: 2.5em;
+}
+h2 {
+	font-size: 2em;
+}
+
+/* Pagina */
+/* met */
+/* opties */
+
+/* Terug naar start knop */
+#home {
+	color: white;
+	font-size: 5em;
+}
+/* Knoppen */
+.button-wrapper {
+	margin-top: 15%;
+}
+.center-align {
+	padding: 10px;
+}
+#knoppen {
+	background-color: #fff;
+	font-size:1.3em;
+	height: auto;
+	width: 100%;
+	padding: 5px;
+}
