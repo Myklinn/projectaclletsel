@@ -7,12 +7,12 @@
   "icons": [
     {
       "src": "android48.jpg",
-      "type": "image/png",
+      "type": "image/jpg",
       "sizes": "48x48"
     },
     {
       "src": "android-chrome-96x96",
-      "type": "image/png",
+      "type": "image/jpg",
       "sizes": "96x96"
     },
     {
