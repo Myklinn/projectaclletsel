@@ -6,8 +6,8 @@
   "name": "Before you ski",
   "icons": [
     {
-      "src": "android48.jpg",
-      "type": "image/jpg",
+      "src": "android48.png",
+      "type": "image/png",
       "sizes": "48x48"
     },
     {
@@ -16,8 +16,8 @@
       "sizes": "96x96"
     },
     {
-      "src": "android192.jpg",
-      "type": "image/jpg",
+      "src": "android192.png",
+      "type": "image/png",
       "sizes": "192x192"
     }
   ],
