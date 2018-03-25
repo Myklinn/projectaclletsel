@@ -1,5 +1,15 @@
 $(document).ready(function() {
 	$(".button-collapse").sideNav();
+	$('.collapsible').collapsible();
+});
+
+$("html").click(function() {
+	if ($('li').hasClass('active')) {
+		$('#keuzes').css('opacity', '0');
+	}
+	else {
+		$('#keuzes').css('opacity', '100');
+	}
 });
 
 $(document).ready(function() {
@@ -17,8 +27,4 @@ $(document).ready(function() {
 			x[slideIndex-1].style.display = "block";
 		setTimeout(carousel, 5000);
 	}
-});
-
-$(document).ready(function() {
-	$('.collapsible').collapsible();
 });

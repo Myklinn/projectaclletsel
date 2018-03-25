@@ -35,59 +35,46 @@
       <p class="snowflake">*</p>  
     </div>    
     <div class="background">
-     <div class="container">
-       <!-- Menu -->
-       <nav class="z-depth-0">
-        <div class="nav-wrapper">
-         <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
-         <ul class="right hide-on-med-and-down">
-          <li><a href="#">Link 1</a></li>
-          <li><a href="#">Link 2</a></li>
-          <li><a href="#">Link 3</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-menu">
-          <li><a href="#">Link 1</a></li>
-          <li><a href="#">Link 2</a></li>
-          <li><a href="#">Link 3</a></li>  
-        </ul>
+     <div class="container">     
+      <!-- Opties -->
+      <div class="button-wrapper">
+        <div class="center-align" id="keuzes">
+          <a href="index" class="waves-effect waves-light btn" id="knop"><i class="material-icons left">home</i>Home</a>
+        </div>
+        <div class="center-align"> <a href="aan-de-slag" class="waves-effect waves-white btn-flat" id="knoppen">Voordat je weggaat(Checklist)</a></div> 
+        <div class="center-align"> <a href="conditie" class="waves-effect waves-white btn-flat" id="knoppen">Oefeningen</a></div> 
+        <div class="center-align"> <a href="aan-de-slag" class="waves-effect waves-white btn-flat" id="knoppen">Piste buienradar</a></div> 
+        <div class="center-align"> <a href="aan-de-slag" class="waves-effect waves-white btn-flat" id="knoppen">Piste omgeving</a></div> 
+        <div class="center-align"> <a href="aan-de-slag" class="waves-effect waves-white btn-flat" id="knoppen">Pauze herinnering</a></div> 
+        <div class="center-align"> <a href="aan-de-slag" class="waves-effect waves-white btn-flat" id="knoppen">Helpdesk</a></div> 
       </div>
-    </nav>  
-    <!-- Einde menu -->        
-    <!-- Opties -->
-    <div class="button-wrapper">
-      <div class="center-align"> <a href="index" class="transition"><i class="material-icons" id="home">home</i></a></div>
-      <div class="center-align"> <a href="aan-de-slag.html" class="waves-effect waves-white btn-flat" id="knoppen">Voordat je weggaat(Checklist)</a></div> 
-      <div class="center-align"> <a href="aan-de-slag.html" class="waves-effect waves-white btn-flat" id="knoppen">Oefeningen</a></div> 
-      <div class="center-align"> <a href="aan-de-slag.html" class="waves-effect waves-white btn-flat" id="knoppen">Piste buienradar</a></div> 
-      <div class="center-align"> <a href="aan-de-slag.html" class="waves-effect waves-white btn-flat" id="knoppen">Piste omgeving</a></div> 
-      <div class="center-align"> <a href="aan-de-slag.html" class="waves-effect waves-white btn-flat" id="knoppen">Pauze herinnering</a></div> 
-      <div class="center-align"> <a href="aan-de-slag.html" class="waves-effect waves-white btn-flat" id="knoppen">Helpdesk</a></div> 
     </div>
-    <!-- Einde opties -->
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <!-- Custom functions -->
-    <script type="text/javascript" src="js/functions.js"></script>
-    <script src="js/fallingsnow_v6.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $("body").css("display", "none");
-
-        $("body").fadeIn(1000);
-
-        $("a.transition").click(function(event){
-          event.preventDefault();
-          linkLocation = this.href;
-          $("body").fadeOut(800, redirectPage);      
-        });
-
-        function redirectPage() {
-          window.location = linkLocation;
-        }
-      });
-    </script>           
   </div>
+  <!-- Einde opties -->
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <!-- Custom functions -->
+  <script type="text/javascript" src="js/functions.js"></script>
+  <script src="js/fallingsnow_v6.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("body").css("display", "none");
+
+      $("body").fadeIn(1000);
+
+      $("a.transition").click(function(event){
+        event.preventDefault();
+        linkLocation = this.href;
+        $("body").fadeOut(800, redirectPage);      
+      });
+
+      function redirectPage() {
+        window.location = linkLocation;
+      }
+    });
+  </script>           
+</div>
 </div>
 </body>
 </html>
