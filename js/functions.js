@@ -18,3 +18,7 @@ $(document).ready(function() {
 		setTimeout(carousel, 5000);
 	}
 });
+
+$(document).ready(function() {
+	$('.collapsible').collapsible();
+});

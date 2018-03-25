@@ -31,24 +31,6 @@ html, body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-/* Transparent achtergrond */
-.transparent {
-	background-color: rgba(255,255,255,0.5) !important;
-	padding-bottom: 15px;
-	padding-top: 0.05%;
-}
-/* Menu open */
-.side-nav {
-	width:50%;
-}
-/* Menu achtergrond kleur */
-nav {
-	background-color: unset !important;
-}
-/* Menu knop kleur */
-i {
-	color: black !important;
-}
 /* Grote titel style */
 #titel {
 	font-family: 'IBM Plex Sans', sans-serif;
@@ -98,4 +80,15 @@ h2 {
 	height: auto;
 	width: 100%;
 	padding: 5px;
+}
+
+/* Pagina */
+/* met */
+/* oefeningen */
+#oefeningen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
 }
